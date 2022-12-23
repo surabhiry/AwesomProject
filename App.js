@@ -96,7 +96,7 @@ const App = () => {
       ) : (
         <View style={styles.container}>
           <Text style={styles.titleText}>
-            Barcode and QR Code Scanner using Camera in React Native
+            QR Code Scanner
           </Text>
           <Text style={styles.textStyle}>
             {qrvalue ? 'Scanned Result: ' + qrvalue : ''}
